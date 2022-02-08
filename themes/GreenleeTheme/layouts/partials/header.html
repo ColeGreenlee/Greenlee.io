@@ -1,0 +1,15 @@
+<header id="header" data-uk-sticky="show-on-up: true; animation: uk-animation-fade; media: @l">
+    <nav class="uk-navbar-container" uk-navbar="mode: click">
+        <div class="uk-navbar-left uk-margin-top uk-margin">
+            <a class="uk-navbar-item uk-logo" href="/" title="Cole Greenlee">
+                <h2>Cole Greenlee</h2>
+            </a>
+            <ul class="uk-navbar-nav ">
+                {{ range .Site.Menus.main }}
+                <li class="uk-active"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                {{ end }}
+            </ul>
+        </div>
+
+    </nav>
+</header>

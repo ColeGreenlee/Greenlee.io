@@ -1,0 +1,39 @@
+{{ define "main" }}
+
+<section class="uk-section uk-section-secondary">
+    <div class="uk-container uk-container-small">
+        <h2 class="uk-heading-line uk-text-bold"><span>Latest Posts</span></h2>
+    </div>
+</section>
+<section class="uk-section uk-section-default">
+    <div class="uk-container uk-container-small">
+        <div class="uk-grid" uk-grid>
+            {{ range .Site.RegularPages.ByPublishDate.Reverse }}
+
+            <div class="uk-card uk-card-secondary uk-margin-bottom uk-margin ">
+                <article class="uk-section uk-section-xsmall">
+                    <div class="uk-card-header">
+                        <header>
+                            <a title="{{ .Title }}" class="uk-link-reset" href="{{ .RelPermalink }}">
+                                <h3 class="uk-card-title">{{ .Title }}</h3>
+                            </a>
+                            <p class="uk-article-meta">{{ .PublishDate}} | <span
+                                    data-uk-icon="icon: future"></span>{{ .ReadingTime }}
+                            </p>
+                        </header>
+                    </div>
+                    <div class="uk-card-body">
+                        <p>{{ .Summary }}</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="{{ .RelPermalink }}" title="Read More" class="uk-button uk-button-default">READ
+                            MORE</a>
+                    </div>
+                </article>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ end }}

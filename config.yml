@@ -1,0 +1,26 @@
+baseURL: https://greenlee.io/
+languageCode: en-us
+title: Cole Greenlee
+theme: "GreenleeTheme"
+enableGitInfo: true
+
+menu:
+  main:
+    - name: Home
+      pre: home
+      url: /
+      weight: 1
+    - name: Posts
+      pre: file-edit
+      url: /posts/
+      weight: 2
+    - name: Resume
+      pre: list
+      url: /files/ColeGreenlee_Resume.pdf
+      weight: 3
+    - name: Code
+      pre: code
+      url: https://github.com/ColeGreenlee
+      weight: 3
+
+params:
