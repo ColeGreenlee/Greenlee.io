@@ -3,7 +3,7 @@ languageCode: en-us
 title: Cole Greenlee
 theme: "GreenleeTheme"
 enableGitInfo: true
-
+enableEmoji: true
 menu:
   main:
     - name: Home
@@ -14,13 +14,17 @@ menu:
       pre: file-edit
       url: /posts/
       weight: 2
+    - name: Projects
+      pre: code
+      url: /projects/
+      weight: 3
     - name: Resume
       pre: list
       url: /files/ColeGreenlee_Resume.pdf
-      weight: 3
+      weight: 4
     - name: Code
       pre: code
       url: https://github.com/ColeGreenlee
-      weight: 3
+      weight: 5
 
 params:

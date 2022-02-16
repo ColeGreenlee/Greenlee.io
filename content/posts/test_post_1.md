@@ -1,10 +1,11 @@
 ---
 title: "Munere saevit virgo margine blandisque revocare laborum"
 date: 2022-02-01T19:43:16-06:00
-draft: false
+draft: true
 featuredImageURL: https://picsum.photos/500/500/?random=1
 featuredImageCaption: A caption for this very cool image
 ---
+
 # Munere saevit virgo margine blandisque revocare laborum
 
 ## Ipsam et mandata longa feros natos
@@ -25,11 +26,11 @@ umbrosa; annis. In sublimis sub cognoscere defuit diem vivacem domus.
 
 ## Cupidoque nefas spoliisque duxerat
 
-Colorem nollem pressus possint, hoc puniceum, et sine *auro et*? Illi et
+Colorem nollem pressus possint, hoc puniceum, et sine _auro et_? Illi et
 onerosior Echo; solvit hic vestigia sagitta quod iam exemploque redimat,
 persequar. Carmina moriri; nostro aetate hospitium aede palustribus domito?
 
-Suis hunc sociis, gramine, et *puellis* ait, sole. Sic pendentem hanc,
+Suis hunc sociis, gramine, et _puellis_ ait, sole. Sic pendentem hanc,
 Cereremque sors. Sunt tuas [namque glaebas et](http://visaet.io/induerat.php)
 tanta; linguisque quondam tepidique imagine est erat. Corpore veniunt.
 
@@ -44,5 +45,5 @@ tanta; linguisque quondam tepidique imagine est erat. Corpore veniunt.
 
 Illa iam forma alios positis lato. Iuro amplectitur, haud, munere virginibusque
 collo? Contraria aere pallentia dentibus rurisque. Sanguine vidi de tecta ait
-lucos proles videt. *Luna* audisse, magis culpa [saepe dabat
-verba](http://non.net/) auroque, *iam tam* gelidoque sciret moenibus.
+lucos proles videt. _Luna_ audisse, magis culpa [saepe dabat
+verba](http://non.net/) auroque, _iam tam_ gelidoque sciret moenibus.

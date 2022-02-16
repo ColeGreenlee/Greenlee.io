@@ -1,13 +1,14 @@
 ---
 title: "One morning, when Gregor Samsa woke from troubled dreams."
 date: 2022-02-01T19:43:16-06:00
-draft: false
+draft: true
 featuredImageURL: https://picsum.photos/500/500/?random=1
 featuredImageCaption: A caption for this very cool image
 ---
 
 # One morning, when Gregor Samsa woke from troubled dreams.
-One morning, when Gregor Samsa woke from troubled dreams, he found himself *transformed* in his bed into a horrible  [vermin](http://en.wikipedia.org/wiki/Vermin "Wikipedia Vermin"). He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover **strong** it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, link waved abouthelplessly as he looked. <cite>“What's happened to me?”</cite> he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
+
+One morning, when Gregor Samsa woke from troubled dreams, he found himself _transformed_ in his bed into a horrible [vermin](http://en.wikipedia.org/wiki/Vermin "Wikipedia Vermin"). He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover **strong** it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, link waved abouthelplessly as he looked. <cite>“What's happened to me?”</cite> he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
 
 ## The bedding was hardly able to cover it.
 
@@ -19,7 +20,6 @@ It showed a lady fitted out with a fur hat and fur boa who sat upright, raising 
 - He has to get up early (to start another dreadful day).
 - He has a drawer and a alarm clock next to his bed.
 - His mother calls him when he gets up to late.
-
 
 <table class="data">
   <tr>
@@ -69,10 +69,11 @@ It was very easy to throw aside the blanket. He needed only to push himself up a
 Thus, he tried to get his upper body out of the bed first and turned his head carefully toward the edge of the bed. He managed to do this easily, and in spite of its width and weight his body mass at last slowly followed the turning of his head. But as he finally raised his head outside the bed in the open air, he became anxious about moving forward any further in this manner, for if he allowed himself eventually to fall by this process, it would take a miracle to prevent his head from getting injured. And at all costs he must not lose consciousness right now. He preferred to remain in bed.
 
 #### First five selected publications in English
+
 1. The Castle
 2. The Great Wall of China
 3. The Trial
-4. America	
+4. America
 5. The Diaries Of Franz Kafka
 
-***
+---

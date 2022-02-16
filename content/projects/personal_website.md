@@ -1,14 +1,16 @@
 ---
-title: "Hominesque traxit"
-date: 2022-02-01T19:43:16-06:00
+title: "Personal Website"
+repoURL: https://github.com/ColeGreenlee/Greenlee.io
+thumbnailImage: https://picsum.photos/500/500/?random=1
+associatedPostSlug: "making_a_simple_blog"
 draft: true
-featuredImageURL: https://picsum.photos/500/500/?random=1
-featuredImageCaption: A caption for this very cool image
 ---
 
-# Hominesque traxit
+**This post will be used to help generate the archetype - mostly from frontmatter**
 
-## Pro fuit volutant
+A short project description should go here to describe what the project is. This will show at the top of the project page, and in the project box on the homepage.
+
+## This is all about the project
 
 Lorem markdownum linguam deam **quid** sustulit iuvenumque ingenti arida, at
 illa manus solidumve. Quassaque sudem.

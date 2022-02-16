@@ -1,14 +1,13 @@
 ---
-title: "Hominesque traxit"
-date: 2022-02-01T19:43:16-06:00
+title: "Generating LaTeX Resumes That Work"
+repoURL: https://github.com/ColeGreenlee/GreenleeNet
+thumbnailImage: https://picsum.photos/500/500/?random=1
 draft: true
-featuredImageURL: https://picsum.photos/500/500/?random=1
-featuredImageCaption: A caption for this very cool image
 ---
 
-# Hominesque traxit
+A short project description should go here to describe what the project is. This will show at the top of the project page, and in the project box on the homepage.
 
-## Pro fuit volutant
+## This is all about the project
 
 Lorem markdownum linguam deam **quid** sustulit iuvenumque ingenti arida, at
 illa manus solidumve. Quassaque sudem.

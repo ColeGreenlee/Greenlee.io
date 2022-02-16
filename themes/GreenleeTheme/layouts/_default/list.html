@@ -7,29 +7,40 @@
 </section>
 <section class="uk-section uk-section-default">
     <div class="uk-container uk-container-small">
-        <div class="uk-grid" uk-grid>
-            {{ range .Site.RegularPages.ByPublishDate.Reverse }}
-
-            <div class="uk-card uk-card-secondary uk-margin-bottom uk-margin ">
-                <article class="uk-section uk-section-xsmall">
-                    <div class="uk-card-header">
-                        <header>
-                            <a title="{{ .Title }}" class="uk-link-reset" href="{{ .RelPermalink }}">
-                                <h3 class="uk-card-title">{{ .Title }}</h3>
-                            </a>
-                            <p class="uk-article-meta">{{ .PublishDate}} | <span
-                                    data-uk-icon="icon: future"></span>{{ .ReadingTime }}
-                            </p>
-                        </header>
-                    </div>
-                    <div class="uk-card-body">
-                        <p>{{ .Summary }}</p>
-                    </div>
-                    <div class="uk-card-footer">
-                        <a href="{{ .RelPermalink }}" title="Read More" class="uk-button uk-button-default">READ
-                            MORE</a>
-                    </div>
-                </article>
+        <div class="uk-grid-column-small uk-grid-row-large" uk-grid>
+            {{ range .Pages }}
+            <div class="uk-animation-scale-down uk-margin-remove-top uk-margin-small">
+                <div class="uk-card uk-card-secondary uk-margin-bottom uk-margin">
+                    <article class="uk-section">
+                        {{ if (isset .Params "thumbnailimage") }}
+                        <div class="uk-card-media-top uk-align-center">
+                            <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light"
+                                data-src="{{ .Params.thumbnailImage }}" uk-img>
+                                <h1>{{ .Title }}</h1>
+                            </div>
+                        </div>
+                        {{ end }}
+                        <div class="uk-card-header">
+                            <header>
+                                <a title="{{ .Title }}" class="uk-link-reset" href="{{ .RelPermalink }}">
+                                    <h3 class="uk-card-title">{{ .Title }}</h3>
+                                </a>
+                                <p class="uk-article-meta">
+                                    {{ .PublishDate.Format "02.01.2006"}}&nbsp;&nbsp;|&nbsp;&nbsp;<span
+                                        data-uk-icon="icon: future; ratio: 0.85"></span>
+                                    {{ .ReadingTime }} minute read
+                                </p>
+                            </header>
+                        </div>
+                        <div class="uk-card-body uk-padding uk-padding-remove-vertical">
+                            <p>{{ .Summary }}</p>
+                        </div>
+                        <div class="uk-card-footer">
+                            <a href="{{ .RelPermalink }}" title="Read More" class="uk-button uk-button-default">READ
+                                MORE</a>
+                        </div>
+                    </article>
+                </div>
             </div>
             {{ end }}
         </div>
