@@ -30,11 +30,18 @@
                                     <a title="{{ .Title }}" class="uk-link-reset" href="{{ .RelPermalink }}">
                                         <h2 class="uk-card-title">{{ .Title }}</h2>
                                     </a>
+
+
                                 </header>
                                 <hr />
                             </div>
                             {{ end }}
                             <div class="uk-card-body uk-height-medium uk-padding-small">
+                                {{ if .Draft }}
+
+                                <span class="uk-label uk-label-warning">This Project is a Draft</span>
+                                <br />
+                                {{ end}}
                                 <p>{{ .Summary }}</p>
                             </div>
 

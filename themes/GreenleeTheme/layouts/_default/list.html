@@ -29,6 +29,9 @@
                                     {{ .PublishDate.Format "02.01.2006"}}&nbsp;&nbsp;|&nbsp;&nbsp;<span
                                         data-uk-icon="icon: future; ratio: 0.85"></span>
                                     {{ .ReadingTime }} minute read
+                                    {{ if .Draft }}
+                                    <span class="uk-label uk-label-warning uk-margin-left">Draft</span>
+                                    {{ end}}
                                 </p>
                             </header>
                         </div>
