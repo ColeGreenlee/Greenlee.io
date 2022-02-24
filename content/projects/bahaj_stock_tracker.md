@@ -1,7 +1,7 @@
 ---
 title: "BLÅHAJ BOT: Why my love for this shark will never fade away"
 repoURL: https://github.com/ColeGreenlee/BlahajBot
-thumbnailImage: https://picsum.photos/500/500/?random=1
+# thumbnailImage:
 draft: true
 ---
 

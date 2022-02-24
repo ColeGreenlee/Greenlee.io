@@ -2,7 +2,7 @@
 title: "One morning, when Gregor Samsa woke from troubled dreams."
 date: 2022-02-01T19:43:16-06:00
 draft: true
-featuredImageURL: https://picsum.photos/500/500/?random=1
+# featuredImageURL: https://picsum.photos/500/500/?random=1
 featuredImageCaption: A caption for this very cool image
 ---
 

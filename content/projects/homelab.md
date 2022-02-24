@@ -1,7 +1,7 @@
 ---
 title: "HomeLab"
 repoURL: https://github.com/ColeGreenlee/GreenleeNet
-thumbnailImage: https://picsum.photos/500/500/?random=1
+# thumbnailImage: https://picsum.photos/500/500/?random=1
 associatedPostURL: "/posts/homelab"
 
 draft: true

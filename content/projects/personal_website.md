@@ -1,19 +1,20 @@
 ---
 title: "Personal Website"
 repoURL: https://github.com/ColeGreenlee/Greenlee.io
-thumbnailImage: https://picsum.photos/500/500/?random=1
+# thumbnailImage:
 associatedPostSlug: "making_a_simple_blog"
 draft: true
+weight: 1
 ---
 
-**This post will be used to help generate the archetype - mostly from frontmatter**
+This post will be used to help generate the archetype - mostly from frontmatter
 
 A short project description should go here to describe what the project is. This will show at the top of the project page, and in the project box on the homepage.
 
-## This is all about the project
-
 Lorem markdownum linguam deam **quid** sustulit iuvenumque ingenti arida, at
 illa manus solidumve. Quassaque sudem.
+
+<!--more-->
 
 Modo est hoc gurgite turba hasta, fratrem quoque. Sine resupina ducit nomen
 aequorea sine vidit quoque ita augusta
@@ -42,8 +43,8 @@ procul: hominis _hanc_ legendo voce magistris! Ignis tuum illis stabantque ad
 vultus erat volant Milon, fulgebant pavit; _furens casus quod_ decusque ripam,
 ego vacuas minor Alcyonen?
 
-    swipe_tag = 441565 + font_windows * artificial * rate_bus_web - rateSdsl /
-            remote;
+```c
+    swipe_tag = 441565 + font_windows * artificial * rate_bus_web - rateSdsl / remote;
     if (hard_broadband_null * room_bare_unfriend) {
         engineSataKeylogger(nanometer, surface_flash_case);
         internal = power_website + 3 + dram_gps_double;
@@ -54,6 +55,7 @@ ego vacuas minor Alcyonen?
         sourceSoftware += paper.kbps(web_surge * 47);
     }
     bare.ad -= processorYottabytePanel(1 + plain) - petabyte_inbox_apache;
+```
 
 Vulnere ora, sibi dedere in, Letoia adfusaque oritur. Mittere tuque. Illo cauda
 umoris. _Volucres_ garrula hoc Aetne et sensit contermina varios sed et Ide

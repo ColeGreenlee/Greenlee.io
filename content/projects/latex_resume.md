@@ -1,7 +1,7 @@
 ---
 title: "Generating LaTeX Resumes That Work"
 repoURL: https://github.com/ColeGreenlee/GreenleeNet
-thumbnailImage: https://picsum.photos/500/500/?random=1
+# thumbnailImage: https://picsum.photos/500/500/?random=1
 draft: true
 ---
 
