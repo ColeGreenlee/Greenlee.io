@@ -1,0 +1,117 @@
+:root {
+    --light: #f7dba7ff;
+    --secondary: #f1ab86ff;
+    --primary: #c57b57ff;
+    --background: #1e2d2fff;
+    --card: #1e2d2fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    perspective: 1000px;
+    background-color: var(--background);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+
+}
+
+.card {
+    min-height: 20rem;
+    width: 45rem;
+    background-color: var(--card);
+    color: var(--light);
+    box-shadow: 0 25px 25px rgba(0,0,0,0.5), 0 0 50px rgba(0,0,0,0.4), 0 0 0.25rem inset rgba(0,0,0,0.1);
+    border-radius: 30px;
+    transform-style: preserve-3d;
+}
+
+.profile {
+    margin: 1rem;
+    min-height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#picture {
+    width: 21rem;
+    height: 21rem;
+    object-fit: cover;
+    border-radius: 50%;
+    z-index: 2;
+    margin: 0.5rem;
+}
+
+.circle {
+    width: 20rem;
+    height: 20rem;
+    background: var(--background);
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 25px 255px rgba(0,0,0,0.25), 0 -25px 50px inset rgba(0,0,0,0.45), 0 -25px 35px inset rgba(0,0,0,0.45);;
+}
+
+.info {
+    transform-style: preserve-3d;
+    margin: 0 3rem;
+    justify-content: center;
+}
+
+
+.title {
+    font-size: 3rem;
+    transition: all 0.5s ease;
+}
+
+.subtitle {
+    font-size: 1.3rem;
+    transition: all 0.5s ease;
+}
+
+.links {
+    width: fit-content;
+    height: 25%;
+    margin: 2rem;
+    min-width: 25vw;
+    display: flex;
+
+    transform-style: preserve-3d;
+}
+
+.link-button {
+    margin: 0.25rem 0.25rem;
+    padding: 1rem 1rem;
+    background: none;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: var(--primary);
+    color: var(--light);
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.35);
+    transform: translateZ(2000px);
+    transition: all 2s ease;
+}
+
+.link-button i {
+    margin: 0 0.25rem;
+}

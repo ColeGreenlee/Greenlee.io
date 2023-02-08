@@ -1,0 +1,16 @@
+{{ define "main" }}
+{{ partial "metadata.html" . }}
+<section class="uk-section uk-article uk-padding-remove-top">
+  <section class="uk-section uk-section-secondary uk-padding-small">
+    <div class="uk-container uk-container-large uk-padding-large">
+      <h2 class="uk-text-bold uk-heading-medium uk-margin-small">{{ .Title }}
+      </h2>
+      <hr />
+      <div class="uk-container uk-container-large">
+        {{ .Content }}
+      </div>
+  </section>
+
+</section>
+
+{{ end }}
